@@ -1,4 +1,0 @@
-hello, world!!! {i}
-hello, world!!! {i}
-hello, world!!! {i}
-어팬드 모드에서 파일을 씁니다.
