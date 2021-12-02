@@ -1,0 +1,5 @@
+np.random.random <--- np.random.uniform(0, 1, s)
+                <--- np.random.normal(m,s,n)
+
+np.random.randn(n) <---  (0, 1, n)
+np.random.randint(시작, 끝, 갯수)
