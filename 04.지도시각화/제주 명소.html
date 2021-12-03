@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_40217a92a0fc438b9e5a48bc73701f82 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    <h3 algn="cebter" style="font-size:25px"> 주요 명소 10개</h3>
+    
+            <div class="folium-map" id="map_40217a92a0fc438b9e5a48bc73701f82" ></div>
+        
+</body>
+<script>    
+    
+            var map_40217a92a0fc438b9e5a48bc73701f82 = L.map(
+                "map_40217a92a0fc438b9e5a48bc73701f82",
+                {
+                    center: [33.38186232527288, 126.595992293211],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5939aec6805d4c7aa445ca72d07663a3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_40217a92a0fc438b9e5a48bc73701f82);
+        
+    
+            var marker_31eb40c4811647d88966f8048b62f4a3 = L.marker(
+                [33.4348735442325, 126.688504038171],
+                {}
+            ).addTo(map_40217a92a0fc438b9e5a48bc73701f82);
+        
+    
+        var popup_437d1b3c09744c3ba6fdd4f680d551b2 = L.popup({"maxWidth": 200});
+
+        
+            var html_3cbae643555844a8b318e6c34939450d = $(`<div id="html_3cbae643555844a8b318e6c34939450d" style="width: 100.0%; height: 100.0%;">제주특별자치도 제주시 광양9길 10</div>`)[0];
+            popup_437d1b3c09744c3ba6fdd4f680d551b2.setContent(html_3cbae643555844a8b318e6c34939450d);
+        
+
+        marker_31eb40c4811647d88966f8048b62f4a3.bindPopup(popup_437d1b3c09744c3ba6fdd4f680d551b2)
+        ;
+
+        
+    
+    
+            marker_31eb40c4811647d88966f8048b62f4a3.bindTooltip(
+                `<div>
+                     산굼부리
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8b947424e954e8fbc4d6da9f718593d = L.marker(
+                [33.4595817723328, 126.712603527413],
+                {}
+            ).addTo(map_40217a92a0fc438b9e5a48bc73701f82);
+        
+    
+        var popup_fd9a32c119c84facaaf0f77a435c62ce = L.popup({"maxWidth": 200});
+
+        
+            var html_69db68bf09ea419d91db5fe5cf5e2cc3 = $(`<div id="html_69db68bf09ea419d91db5fe5cf5e2cc3" style="width: 100.0%; height: 100.0%;">제주특별자치도 제주시 광양9길 10</div>`)[0];
+            popup_fd9a32c119c84facaaf0f77a435c62ce.setContent(html_69db68bf09ea419d91db5fe5cf5e2cc3);
+        
+
+        marker_c8b947424e954e8fbc4d6da9f718593d.bindPopup(popup_fd9a32c119c84facaaf0f77a435c62ce)
+        ;
+
+        
+    
+    
+            marker_c8b947424e954e8fbc4d6da9f718593d.bindTooltip(
+                `<div>
+                     거문오름
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf04693c08244f0ca04419609e0766b0 = L.marker(
+                [33.2069308530747, 126.290224423429],
+                {}
+            ).addTo(map_40217a92a0fc438b9e5a48bc73701f82);
+        
+    
+        var popup_56d6c04a09c04a659b901800407503b4 = L.popup({"maxWidth": 200});
+
+        
+            var html_513e5df1107c444399c0873729b17f0b = $(`<div id="html_513e5df1107c444399c0873729b17f0b" style="width: 100.0%; height: 100.0%;">제주특별자치도 제주시 광양9길 10</div>`)[0];
+            popup_56d6c04a09c04a659b901800407503b4.setContent(html_513e5df1107c444399c0873729b17f0b);
+        
+
+        marker_cf04693c08244f0ca04419609e0766b0.bindPopup(popup_56d6c04a09c04a659b901800407503b4)
+        ;
+
+        
+    
+    
+            marker_cf04693c08244f0ca04419609e0766b0.bindTooltip(
+                `<div>
+                     송악산
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38f2b6ce7f2240a392f82ba5306542cb = L.marker(
+                [33.4326479593104, 126.930174112734],
+                {}
+            ).addTo(map_40217a92a0fc438b9e5a48bc73701f82);
+        
+    
+        var popup_6367cc2337f74ca58aaeabafb55e1c0d = L.popup({"maxWidth": 200});
+
+        
+            var html_d35260037e99496ab28f32f1dbf4cea9 = $(`<div id="html_d35260037e99496ab28f32f1dbf4cea9" style="width: 100.0%; height: 100.0%;">제주특별자치도 제주시 광양9길 10</div>`)[0];
+            popup_6367cc2337f74ca58aaeabafb55e1c0d.setContent(html_d35260037e99496ab28f32f1dbf4cea9);
+        
+
+        marker_38f2b6ce7f2240a392f82ba5306542cb.bindPopup(popup_6367cc2337f74ca58aaeabafb55e1c0d)
+        ;
+
+        
+    
+    
+            marker_38f2b6ce7f2240a392f82ba5306542cb.bindTooltip(
+                `<div>
+                     섭지코지
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74f631150a3d4e62a6327bbca68e970c = L.marker(
+                [33.5283774190149, 126.771615754394],
+                {}
+            ).addTo(map_40217a92a0fc438b9e5a48bc73701f82);
+        
+    
+        var popup_a8ab2cf9f3ff4ceea559827ad3a13375 = L.popup({"maxWidth": 200});
+
+        
+            var html_7762d64e6f574aab972debb25e40c70a = $(`<div id="html_7762d64e6f574aab972debb25e40c70a" style="width: 100.0%; height: 100.0%;">제주특별자치도 제주시 광양9길 10</div>`)[0];
+            popup_a8ab2cf9f3ff4ceea559827ad3a13375.setContent(html_7762d64e6f574aab972debb25e40c70a);
+        
+
+        marker_74f631150a3d4e62a6327bbca68e970c.bindPopup(popup_a8ab2cf9f3ff4ceea559827ad3a13375)
+        ;
+
+        
+    
+    
+            marker_74f631150a3d4e62a6327bbca68e970c.bindTooltip(
+                `<div>
+                     만장굴
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_062d05c3907d4bfb8a5d6eb45bf7b62f = L.marker(
+                [33.4462541339754, 126.911560925407],
+                {}
+            ).addTo(map_40217a92a0fc438b9e5a48bc73701f82);
+        
+    
+        var popup_254905de83044b53ae47e0dee9fcbc19 = L.popup({"maxWidth": 200});
+
+        
+            var html_7723fba836814899a963525ed6e0c569 = $(`<div id="html_7723fba836814899a963525ed6e0c569" style="width: 100.0%; height: 100.0%;">제주특별자치도 제주시 광양9길 10</div>`)[0];
+            popup_254905de83044b53ae47e0dee9fcbc19.setContent(html_7723fba836814899a963525ed6e0c569);
+        
+
+        marker_062d05c3907d4bfb8a5d6eb45bf7b62f.bindPopup(popup_254905de83044b53ae47e0dee9fcbc19)
+        ;
+
+        
+    
+    
+            marker_062d05c3907d4bfb8a5d6eb45bf7b62f.bindTooltip(
+                `<div>
+                     성산일출봉
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0ac6781d2c9450886524855e8326243 = L.marker(
+                [33.3059196580856, 126.289373709158],
+                {}
+            ).addTo(map_40217a92a0fc438b9e5a48bc73701f82);
+        
+    
+        var popup_ed6d8686d8cf4e4681f427ab6c215988 = L.popup({"maxWidth": 200});
+
+        
+            var html_e553509bb5614a2b9f5567b98e5593f7 = $(`<div id="html_e553509bb5614a2b9f5567b98e5593f7" style="width: 100.0%; height: 100.0%;">제주특별자치도 제주시 광양9길 10</div>`)[0];
+            popup_ed6d8686d8cf4e4681f427ab6c215988.setContent(html_e553509bb5614a2b9f5567b98e5593f7);
+        
+
+        marker_c0ac6781d2c9450886524855e8326243.bindPopup(popup_ed6d8686d8cf4e4681f427ab6c215988)
+        ;
+
+        
+    
+    
+            marker_c0ac6781d2c9450886524855e8326243.bindTooltip(
+                `<div>
+                     오설록
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85803e2327db4d4283ab52911b3eaca9 = L.marker(
+                [33.2379943545484, 126.426017654679],
+                {}
+            ).addTo(map_40217a92a0fc438b9e5a48bc73701f82);
+        
+    
+        var popup_d1b6c6b0da8443d38efc0b2d4c1a5b36 = L.popup({"maxWidth": 200});
+
+        
+            var html_4c07e98d30944a61a8ccc36515176827 = $(`<div id="html_4c07e98d30944a61a8ccc36515176827" style="width: 100.0%; height: 100.0%;">제주특별자치도 제주시 광양9길 10</div>`)[0];
+            popup_d1b6c6b0da8443d38efc0b2d4c1a5b36.setContent(html_4c07e98d30944a61a8ccc36515176827);
+        
+
+        marker_85803e2327db4d4283ab52911b3eaca9.bindPopup(popup_d1b6c6b0da8443d38efc0b2d4c1a5b36)
+        ;
+
+        
+    
+    
+            marker_85803e2327db4d4283ab52911b3eaca9.bindTooltip(
+                `<div>
+                     주상절리
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a79a93eaeb5420496b0cbe95303b753 = L.marker(
+                [33.2526754970693, 126.418374242413],
+                {}
+            ).addTo(map_40217a92a0fc438b9e5a48bc73701f82);
+        
+    
+        var popup_2a131ae4331047c79e142bda62e9bbc2 = L.popup({"maxWidth": 200});
+
+        
+            var html_c9fc3340182949d2a5c73cbd89959e5a = $(`<div id="html_c9fc3340182949d2a5c73cbd89959e5a" style="width: 100.0%; height: 100.0%;">제주특별자치도 제주시 광양9길 10</div>`)[0];
+            popup_2a131ae4331047c79e142bda62e9bbc2.setContent(html_c9fc3340182949d2a5c73cbd89959e5a);
+        
+
+        marker_5a79a93eaeb5420496b0cbe95303b753.bindPopup(popup_2a131ae4331047c79e142bda62e9bbc2)
+        ;
+
+        
+    
+    
+            marker_5a79a93eaeb5420496b0cbe95303b753.bindTooltip(
+                `<div>
+                     천제연폭포
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a44d7dd418d4492e9c8d7983f7417d91 = L.marker(
+                [33.5133680610848, 126.521474544312],
+                {}
+            ).addTo(map_40217a92a0fc438b9e5a48bc73701f82);
+        
+    
+        var popup_fbf874d54a5a493f87b5fab27e80b93f = L.popup({"maxWidth": 200});
+
+        
+            var html_edb4088bb0cf43d79c6f662321b23391 = $(`<div id="html_edb4088bb0cf43d79c6f662321b23391" style="width: 100.0%; height: 100.0%;">제주특별자치도 제주시 광양9길 10</div>`)[0];
+            popup_fbf874d54a5a493f87b5fab27e80b93f.setContent(html_edb4088bb0cf43d79c6f662321b23391);
+        
+
+        marker_a44d7dd418d4492e9c8d7983f7417d91.bindPopup(popup_fbf874d54a5a493f87b5fab27e80b93f)
+        ;
+
+        
+    
+    
+            marker_a44d7dd418d4492e9c8d7983f7417d91.bindTooltip(
+                `<div>
+                     제주관덕정
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
